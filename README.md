@@ -14,7 +14,7 @@ There are several features that are implemented in this app to send messages suc
 - Return product's description via chat based on query.
 - Return product's price via chat based on query.
 - Return product's shipping fee via chat based on query.
-- Notify the developer if there is a customer buying a product via Email
+- Notify the developer if there is a customer buying a product via Sendgrid Email API.
 
 
 ## List Of APIs
@@ -25,6 +25,10 @@ There are several features that are implemented in this app to send messages suc
 | 2 | GET| /v1/webhook | To verify the webhook with Facebook Messenger App 
 | 3 | POST| /v1/webhook | To handle webhook's events
 
+## API Flow Diagram
+<p align='center'> <img src="readme_files/Chatbot_API2.png" height="400"/></p> <p align='center'> Figure 1 : API No. 2 </p> 
+
+<p align='center'> <img src="readme_files/Chatbot_API3.png" height="400"/></p> <p align='center'> Figure 2 : API No. 3 </p> 
 
 ## Environment Variables
 
@@ -64,9 +68,9 @@ Refer env.example file from the repository.
 **Database:** MySQL (Sequelize ORM)
 
 
-## Screenshots
+## Demo
 
-<p align='center'> <img src="readme_files/demo.gif" height="300"/></p> <p align='center'> Figure 1 : Demo </p> 
+<p align='center'> <img src="readme_files/demo.gif" height="250"/></p> <p align='center'> Figure 3 : Demo </p> 
 
   
 
