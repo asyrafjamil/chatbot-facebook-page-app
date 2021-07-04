@@ -8,6 +8,7 @@
  * @param {*} req Request object
  * @param {*} res Response object
  */
+
 module.exports = (req, res) => {
   try {
     const verifyToken = process.env.FB_VERIFY_TOKEN;
@@ -20,6 +21,11 @@ module.exports = (req, res) => {
       res.status(200).send({
         status: 'success',
         message: challenge,
+      });
+    } else {
+      return res.status(403).send({
+        status: 'err_unathorized_token',
+        message: `Token is unathorized.`,
       });
     }
   } catch {
