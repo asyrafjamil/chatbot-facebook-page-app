@@ -1,4 +1,4 @@
-# Facebook Page Chatbot
+# Facebook Page App
 
 As you may be aware, many businesses use Facebook Pages all around the world. People can contact you through your Facebook page. 
 There are several features that are implemented in this app to send messages such as greeting messages and product's details to the customers.
