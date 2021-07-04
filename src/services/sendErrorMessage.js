@@ -1,5 +1,10 @@
 const request = require('request');
 
+/**
+ * @description Send error message via Facebook Messenger.
+ *
+ * @param {*} clientId send message to the client
+ */
 exports.sendErrorMessage= async function(clientId) {
   const message = `Choose the following command:
   \n/desc {productId} for the product's description, 

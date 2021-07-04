@@ -1,5 +1,11 @@
 const request = require('request');
 
+/**
+ * @description Send greeting's message via Facebook Messenger.
+ *
+ * @param {*} clientId send message to the client
+ */
+
 exports.sendGreetingMessage= async function(clientId) {
   const messages = ['How are you?', `I hope you're doing well`,
     `I hope you're having a great day.`];

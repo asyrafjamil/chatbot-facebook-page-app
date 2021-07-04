@@ -1,5 +1,12 @@
 const request = require('request');
 
+/**
+ * @description Send product's detail via Facebook Messenger.
+ *
+ * @param {*} clientId send message to the client
+ * @param {*} response response message
+ */
+
 exports.sendProductMessage= async function(clientId, response) {
   const requestBody = {
     'recipient': {
