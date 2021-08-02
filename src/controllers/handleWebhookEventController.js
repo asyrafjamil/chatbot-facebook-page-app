@@ -32,6 +32,8 @@ module.exports = async (req, res) => {
       });
     }
 //test
+
+//test2
     const query = req.query;
 
     const productId = req.productId;
