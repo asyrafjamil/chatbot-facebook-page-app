@@ -31,9 +31,7 @@ module.exports = async (req, res) => {
         message: `Greeting's message is sent.`,
       });
     }
-//test
 
-//test2
     const query = req.query;
 
     const productId = req.productId;
